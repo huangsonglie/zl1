@@ -79,5 +79,10 @@ public class CounterController {
       return ApiResponse.error("参数action错误");
     }
   }
+
+  @GetMapping("/hello")
+  public String hello(String name) {
+    return "hello, " + name;
+  }
   
 }
