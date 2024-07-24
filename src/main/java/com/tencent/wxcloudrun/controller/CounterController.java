@@ -82,7 +82,7 @@ public class CounterController {
 
   @GetMapping("/hello")
   public String hello(String name) {
-    return "hello, " + name;
+    return "hello2, " + name;
   }
   
 }
